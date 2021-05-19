@@ -1,10 +1,11 @@
 package main
 
 import (
+	"rest-api-go/database"
+	"rest-api-go/router"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/pauloprescendo/go-rest-api/pauloprescendo/rest-api-go/database"
-	"github.com/pauloprescendo/go-rest-api/pauloprescendo/rest-api-go/router"
 )
 
 func main() {

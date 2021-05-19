@@ -3,9 +3,9 @@ package database
 import (
 	"context"
 	"log"
+	"rest-api-go/config"
 	"time"
 
-	"github.com/pauloprescendo/go-rest-api/pauloprescendo/rest-api-go/config"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
